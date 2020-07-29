@@ -22,7 +22,7 @@ class LunaModel(nn.Module):
         self.block4 = LunaBlock(conv_channels * 4, conv_channels * 8)
 
         self.head_linear = nn.Linear(1152, 2)
-        self.head_softmax = nn.Softmax(dim=1)
+        self.head_softmax = nn.Softmax(dim=1)#
 
         self._init_weights()
 
