@@ -5,7 +5,7 @@ import sys
 
 import numpy as np
 
-from torch.utils.tensorboard import SummaryWriter
+from tensorboardX import SummaryWriter
 
 import torch
 import torch.nn as nn
