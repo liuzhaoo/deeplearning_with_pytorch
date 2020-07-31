@@ -4,3 +4,6 @@
 cifar
 part2
 CSVFILES
+.ipynb_checkpoints
+.idea
+__pycache__
